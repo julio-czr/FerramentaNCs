@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 # Configurações do servidor de e-mail (exemplo: Gmail)
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_USER = "julioramalho01@gmail.co"  # Insira seu e-mail
+SMTP_USER = "julioramalho01@gmail.com"  # Insira seu e-mail
 SMTP_APP_PASSWORD = "nctq wayx lnmt ayby"  # Insira a senha gerada para o aplicativo
 
 def enviar_email(destinatario, assunto, corpo):
