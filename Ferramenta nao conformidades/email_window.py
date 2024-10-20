@@ -51,6 +51,9 @@ class EmailWindow:
         # Botão de Enviar E-mail
         botao_enviar = tk.Button(self.janela, text="Enviar E-mail", command=self.enviar_email, font=('Arial', 14), bg="lightgreen")
         botao_enviar.pack(pady=10)
+        # Botão vermelho (Cancelar)
+        botao_cancelar=tk.Button(self.janela, text="Cancelar", command=self.janela.destroy, font=('Arial', 14), bg="tomato")
+        botao_cancelar.pack(pady=10)
 
     def enviar_email(self):
         destinatario = self.destinatario_entry.get()
